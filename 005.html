@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>005</title>
+
+        <style>
+            body {
+                margin: 0;
+
+            }
+
+            .outer {
+                width: 350px;
+                height: 200px;
+            }
+
+            #top {
+                background-color: red;
+            }
+
+            #bottom {
+                background-color: blue;
+            }
+
+            .inner {
+                height: 100px;
+                width: 100px;
+                background-color:black;
+                display: inline-block;
+            }
+
+            #left {
+                margin: 50px 25px 50px 50px;
+
+            }
+            #right {
+                margin: 50px 50px 50px 25px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="outer" id="top">
+            <div class="inner" id="left"></div><div class="inner" id="right"></div>
+        </div>
+        <div class="outer" id="bottom">
+            <div class="inner" id="left"></div><div class="inner" id="right"></div>
+        </div>
+
+    </body>
+</html>
